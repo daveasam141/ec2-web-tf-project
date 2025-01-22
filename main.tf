@@ -28,6 +28,12 @@ resource "aws_instance" "web-server" {
   subnet_id                   = aws_subnet.public_subnet.id
   ###vpc_security_group_ids      = ["aws_security_group.sg_web.name"] ### set of string required use brackets
   key_name = aws_key_pair.test-key.key_name
+
+  tags = {
+    Name        = "web-instance"
+    Environment = "Development"
+    Owner       = "Dave"
+  }
 }
 
 resource "aws_ebs_volume" "web-vol" {
