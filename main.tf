@@ -49,5 +49,5 @@ resource "aws_volume_attachment" "ebs_web" {
 
 resource "aws_key_pair" "test-key" {  #### Change public key
   key_name   = "mac-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDIeh8Bos/R9uLRGiQAUi+ZU62Cx9W2TBpikWOaeIg4ytL41mPIGU0BvWhgJ3JCEEYDrl/zot54ao8u2jCnFnkoq82wMWZ0zfMkJvTK8h45feAaxdfBqKtMWG4R005RuwY8VO8QKXHkWGMcvpaRJWEjmx2ft4i/aARGPMHizXPaHWFng+tHghqFVI3K9Er0TUPX8epROjleRMsV7KmRqgxa2BWUT5B7QdDSsaKIqZl+Ror6o2NkwrxI9jv1srYYINYRKqczUp5LZ9Ie3uX3sfNbwYcs9TZBQ1mzynjd2BbnMZhQwIumvGJTwViAYAyab0XfPZ78C5t/fTVS3A0ZlwjY6s3m/MQRYVocaGdU5osXXG/AqNO9EFwHQ4ujsa7Y35d6XFS9TXaDwufa37iduwymn/PBQSNk2t0yfoKML+HTXZBA/BGlpBAAYkEakPPYUQTAukxeN0ZV7enfm1TKC8ERKgXB5r0TDDmELHedUnY3Cvl/WL9VMlo8ErRb+gTcnmE= 2wavey@Davids-MacBook-Pro.local"
+  public_key = "example key"
 }
